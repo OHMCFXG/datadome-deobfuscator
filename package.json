@@ -1,0 +1,29 @@
+{
+  "name": "datadome-deobfuscator",
+  "version": "1.0.0",
+  "description": "Deobfuscates datadome PUZZLE script",
+  "keywords": [
+    "deobfuscator"
+  ],
+  "homepage": "https://github.com/thisnun/datadome-deobfuscator#readme",
+  "bugs": {
+    "url": "https://github.com/thisnun/datadome-deobfuscator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisnun/datadome-deobfuscator.git"
+  },
+  "license": "ISC",
+  "author": "thisnun",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.27.0",
+    "@babel/parser": "^7.27.0",
+    "@babel/traverse": "^7.27.0",
+    "@babel/types": "^7.27.0"
+  }
+}
